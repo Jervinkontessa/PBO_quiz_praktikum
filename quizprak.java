@@ -10,7 +10,7 @@ class quizprak{
 		int harga = 0;
 		boolean loop = true;
 		
-		System.out.print("masukkan nama anda : ");
+	System.out.print("masukkan nama anda : ");
         nama = input.nextLine();
         
         System.out.print("Masukkan jumlah unit yang anda inginkan :");
@@ -23,7 +23,7 @@ while (loop){
 	 if(merek == 'G'){
         	while(loop){
         		System.out.print("Masukkan Tipe nya (M/K/L) : ");
-           tipe= input.next().charAt(0);
+                        tipe= input.next().charAt(0);
         	switch(tipe){
             case 'M' :
                 harga = 95000;
@@ -50,7 +50,7 @@ while (loop){
     else if(merek =='O'){
     	while(loop){
     		System.out.print("Masukkan Tipe nya(M/K/L) : ");
-           tipe= input.next().charAt(0);
+                tipe= input.next().charAt(0);
     	switch(tipe){
             case 'M' :
                 harga = 115000;
