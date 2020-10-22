@@ -41,7 +41,7 @@ while (loop){
                  loop = false;
                 break;
             default :
-                System.out.println("ndak ada tipe yang anda cari om");
+                System.out.println("ndak ditemukan tipe yang anda cari");
                 break;
         	}
         	
@@ -68,7 +68,7 @@ while (loop){
                  loop = false;
                 break;
             default :
-                System.out.println("ndak ada tipe yang anda cari om");
+                System.out.println("ndak ditemukan tipe yang anda cari");
                 break;
     	}
     		
